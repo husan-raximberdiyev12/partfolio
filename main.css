@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+header {
+  background-color: grey;
+  padding: 17px 0;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.big-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Epic-game {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  gap: 33px;
+}
+h2 {
+  color: white;
+}
+.box {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  color: white;
+  text-decoration-line: none;
+}
