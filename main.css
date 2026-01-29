@@ -10,7 +10,7 @@ header {
   padding: 17px 0;
 }
 .container {
-  width: 1320px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -19,6 +19,12 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+.big-box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .Epic-game {
   list-style-type: none;
   padding-left: 0;
@@ -39,3 +45,44 @@ a {
   color: white;
   text-decoration-line: none;
 }
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.men-haqimda {
+  color: white;
+}
+.mening-rasmim {
+  margin-top: 50px;
+}
+img {
+  border-radius: 10px;
+}
+.loyhalarim1 {
+  display: flex;
+  width: 1350px;
+  align-items: center;
+
+  gap: 70px;
+}
+.yozuvlar {
+  color: white;
+  width: 300px;
+}
+.loyhalarim2 {
+  display: flex;
+  width: 1350px;
+  align-items: center;
+  gap: 70px;
+  padding-top: 100px;
+}
+.loyhalarim3 {
+  display: flex;
+  width: 1350px;
+  align-items: center;
+
+  gap: 70px;
+  padding-top: 100px;
+}
+
