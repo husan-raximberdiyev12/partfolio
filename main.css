@@ -20,9 +20,10 @@ header {
   justify-content: space-between;
 }
 .big-box2 {
+  width: 1140px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .big-box4 {
   display: flex;
@@ -41,6 +42,11 @@ header {
 h2 {
   color: white;
 }
+h1 {
+  color: white;
+  margin: 0;
+
+}
 .box {
   display: flex;
   gap: 15px;
@@ -58,6 +64,16 @@ a {
 }
 .men-haqimda {
   color: white;
+  
+}
+.oilamning-rasmi{
+   margin-top: 50px;
+   margin-left: 450px;
+}
+.oila{
+  color: white;
+  display: flex;
+  margin-bottom: 450px;
 }
 .mening-rasmim {
   margin-top: 50px;
@@ -96,7 +112,6 @@ img {
   align-items: center;
 }
 .rasm {
-  
   height: 300px;
 }
 h3 {
